@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('//fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+:root {
+  --color-primary: #858585;
+  --color-secondary: rgb(111 114 185);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: black;
+  background: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+}
